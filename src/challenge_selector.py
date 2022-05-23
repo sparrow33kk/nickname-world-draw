@@ -1,24 +1,8 @@
 import random
+from bin import items
 
 
-items_dictionary = {
-    'easy': [
-        {
-            'weapons': [
-                'elvish bow'
-            ], 
-            'armors': [
-                'paladin armor'
-            ],
-            'legs': [
-                'zaoan legs'
-            ],
-            'helmets': [
-                'zaoan helmet'
-            ]
-        }
-    ]
-}
+items_directory = items.items_dictionary
 
 
-print(items_dictionary['easy'][0]['weapons'])
+print(items_directory['easy'][0]['weapons'])
